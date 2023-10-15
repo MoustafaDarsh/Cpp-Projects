@@ -91,6 +91,7 @@ void check_retry (char &retry) {
         cout << "Please enter a valid answer!\n" ;
         cin.clear ();
         while (cin.get () != '\n');
+        cout << "Would you like to try again ? (Y/N) : " ;
         cin >> retry ;
     }
     retry = toupper(retry) ;
